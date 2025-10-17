@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1760709833210"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1760709833210">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<div class="header__inner">
+							<img class="header__logo" src="./assets/img/logo-header.svg" alt="Logo">
+							<div class="header__name">
+								<div class="header__box">
+									<div class="header__text">
+										<p>
+											Футбольний клуб
+											<span>м. Київ</span>
+										</p>
+									</div>
+									<div class="header__title">
+										<p>“Темп-Святошин”</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<!--
+<if condition="'Home' === 'Про нас'">
+<li class="menu__item">
+<a href="#" class="menu__link menu__link--active"
+>Про нас</a
+>
+</li>
+</if>
+-->
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto=".about" data-fls-scrollto-header="">Про нас</a>
+									</li>
+									<!--
+<else>
+<li class="menu__item">
+<a href="#" class="menu__link">Про нас</a>
+</li>
+</else>
+-->
+									<!--
+<if condition="'Home' === 'Переваги'">
+<li class="menu__item">
+<a href="#" class="menu__link menu__link--active"
+>Переваги</a
+>
+</li>
+</if>
+-->
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto=".advantages" data-fls-scrollto-header="">Переваги</a>
+									</li>
+									<!--
+<else>
+<li class="menu__item">
+<a href="#" class="menu__link">Переваги</a>
+</li>
+</else>
+-->
+									<!--
+<if condition="'Home' === 'Тренування'">
+<li class="menu__item">
+<a href="#" class="menu__link menu__link--active"
+>Тренування</a
+>
+</li>
+</if>
+-->
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto=".training" data-fls-scrollto-header="">Тренування</a>
+									</li>
+									<!--
+<else>
+<li class="menu__item">
+<a href="#" class="menu__link">Тренування</a>
+</li>
+</else>
+-->
+									<!--
+<if condition="'Home' === 'Відгуки'">
+<li class="menu__item">
+<a href="#" class="menu__link menu__link--active"
+>Відгуки</a
+>
+</li>
+</if>
+-->
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto="undefined" data-fls-scrollto-header="">Відгуки</a>
+									</li>
+									<!--
+<else>
+<li class="menu__item">
+<a href="#" class="menu__link">Відгуки</a>
+</li>
+</else>
+-->
+									<!--
+<if condition="'Home' === 'Ціни'">
+<li class="menu__item">
+<a href="#" class="menu__link menu__link--active"
+>Ціни</a
+>
+</li>
+</if>
+-->
+									<li class="menu__item">
+										<a href="#" class="menu__link" data-fls-scrollto="undefined" data-fls-scrollto-header="">Ціни</a>
+									</li>
+									<!--
+<else>
+<li class="menu__item">
+<a href="#" class="menu__link">Ціни</a>
+</li>
+</else>
+-->
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<div class="header__inner">
+							<ul data-fls-dynamic=".menu__list, 768" class="header__social social-header">
+								<li class="social-header__item">
+									<a href="" class="social-header__link --icon-instagram"></a>
+								</li>
+								<li class="social-header__item">
+									<a href="" class="social-header__link --icon-facebook"></a>
+								</li>
+							</ul>
+							<button type="button" data-fls-menu="" class="icon-menu">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section data-fls-watcher="navigator" class="hero">
+					<div class="hero__container">
+						<div class="hero__lable">
+							<p>
+								<span>ФК “Темп-Святошин”</span>
+								- стартовий майданчик для майбутніх
+          чемпіонів!
+							</p>
+						</div>
+						<div data-fls-titlehead="" class="titlehead titlehead__hero">
+							<h1 class="titlehead__title titlehead__title--hero">
+								Набір дітей
+								<span>2015 року</span>
+							</h1>
+						</div>
+						<div data-fls-titlehead="" class="titlehead titlehead__hero--title">
+							<h2 class="titlehead__title title-titlehead--hero">
+								будь-якого рівня фізичної підготовки для навчання
+								<span>професійній грі у футбол</span>
+							</h2>
+						</div>
+						<div class="hero__body">
+							<div class="hero__content">
+								<div class="hero__text">
+									<p>
+										Зробіть
+										<span>правильний вибір</span>
+										для здоров’я, впевненості та
+              успіху вашої дитини, залишайте запит та забронюйте безкоштовне
+              заняття!
+									</p>
+								</div>
+								<div class="hero__inner">
+									<div class="hero__box">
+										<button data-fls-button="" class="button">Записатися</button>
+										<a href="" class="hero__link">Дізнатись більше</a>
+									</div>
+								</div>
+							</div>
+							<div data-fls-dynamic=".hero__inner, 768" class="hero__play">
+								<a href="#" data-fls-popup-link="popup" data-fls-popup-youtube="TzqNA7FoEjY">
+									<picture>
+										<img alt="Video Youtube" src="./assets/img/hero/button-play.webp">
+									</picture>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="about">
+					<div class="about__container">
+						<div class="about__box">
+							<div class="about__controls">
+								<div class="about__arrow about__arrow-left --icon-arrow-up"></div>
+								<div class="about__arrow about__arrow-right --icon-arrow-up"></div>
+							</div>
+							<div data-fls-slider="" class="about__slider swiper">
+								<div class="about__wrapper swiper-wrapper">
+									<div class="about__slide swiper-slide">
+										<article class="about__body">
+											<div class="about__icon">
+												<img src="./assets/img/about/running.svg" alt="Icon">
+											</div>
+											<h3 class="about__title">Альтернатива сучасним викликам</h3>
+											<div class="about__text">
+												<p>
+													Замість “залипання” в гаджетах — активний рух, свіже повітря
+                    з ФК “Темп-Святошин”
+												</p>
+											</div>
+										</article>
+									</div>
+									<div class="about__slide swiper-slide">
+										<article class="about__body">
+											<div class="about__icon">
+												<img src="./assets/img/about/trophy.svg" alt="Icon">
+											</div>
+											<h3 class="about__title">Чемпіонів виховують у “Темп-Святошин”</h3>
+											<div class="about__text">
+												<p>
+													Правильна структура занять, взаємодія тренера та команди -
+                    це шанс стати кращим у футболі
+												</p>
+											</div>
+										</article>
+									</div>
+									<div class="about__slide swiper-slide">
+										<article class="about__body">
+											<div class="about__icon">
+												<img src="./assets/img/about/stadium.svg" alt="Icon">
+											</div>
+											<h3 class="about__title">Дисципліна, що змінює життя!</h3>
+											<div class="about__text">
+												<p>
+													Футбол привчає до порядку, дружбі, відповідальності й уміння
+                    досягати поставлених цілей
+												</p>
+											</div>
+										</article>
+									</div>
+									<div class="about__slide swiper-slide">
+										<article class="about__body">
+											<div class="about__icon">
+												<img src="./assets/img/about/sparkles.svg" alt="Icon">
+											</div>
+											<h3 class="about__title">Мрія, яка надихає!</h3>
+											<div class="about__text">
+												<p>
+													Зіркове майбутнє чи улюблене хобі: все залежить від бажання
+                    вашої дитини розвити потрібні навички
+												</p>
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="about__dotts dotts"></div>
+							</div>
+						</div>
+						<div class="about__content">
+							<div data-fls-titlehead="" class="titlehead">
+								<div class="titlehead__title titlehead__title--lable">
+									<p>ПРО НАС</p>
+								</div>
+							</div>
+							<div data-fls-titlehead="" class="titlehead">
+								<h2 class="titlehead__title">
+									ФК “Темп-Святошин”:
+									<span>старт великої футбольної мрії!</span>
+								</h2>
+							</div>
+							<div class="about__inner">
+								<div class="about__wrap">
+									<div class="about__text">
+										<p>
+											<span>Темп-Святошин</span>
+											– це місце, де юні серця починають
+                битись у ритмі великого спорту, а мрії про великі перемоги
+                стають реальністю. Пишаємося тим, що маємо честь виховувати
+                наступне покоління футбольних зірок.
+										</p>
+									</div>
+									<div class="about__text">
+										<p>
+											Темп-Святошин – це місце, де юні серця починають битись у ритмі
+                великого спорту, а мрії про великі перемоги стають реальністю.
+                Пишаємося тим, що маємо честь виховувати наступне покоління
+                футбольних зірок.
+										</p>
+									</div>
+								</div>
+								<div class="about__image">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/about/team-600.webp" type="image/webp">
+										<img alt="Image Team" src="./assets/img/about/team.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="facts">
+					<div class="facts__container">
+						<div data-fls-titlehead="" class="titlehead titlehead--facts">
+							<div class="titlehead__title titlehead__title--lable">
+								<p>ФАКТИ В ЦИФРАХ</p>
+							</div>
+						</div>
+						<div class="facts__content">
+							<div class="facts__coach">
+								<picture>
+									<img alt="Тренер" src="./assets/img/facts/coach.webp">
+								</picture>
+							</div>
+							<div class="facts__slider swiper">
+								<div class="facts__wrapper swiper-wrapper">
+									<div class="facts__slide swiper-slide">
+										<div data-fls-watcher="" class="facts__item">
+											<div class="facts__inner">
+												<span data-fls-digcounter="" class="facts__number">426</span>
+												<span class="facts__description">учнів</span>
+											</div>
+											<div class="facts__text">
+												<p>проходять навчання в нашій школі</p>
+											</div>
+										</div>
+									</div>
+									<div class="facts__slide swiper-slide">
+										<div data-fls-watcher="" class="facts__item">
+											<div class="facts__inner">
+												<span data-fls-digcounter="" class="facts__number">128</span>
+												<span class="facts__description">турнірів</span>
+											</div>
+											<div class="facts__text">
+												<p>Виграно протягом 2024 року</p>
+											</div>
+										</div>
+									</div>
+									<div class="facts__slide swiper-slide">
+										<div data-fls-watcher="" class="facts__item">
+											<div class="facts__inner">
+												<span data-fls-digcounter="" class="facts__number">28</span>
+												<span class="facts__description">контрактів</span>
+											</div>
+											<div class="facts__text">
+												<p>Підписано нашими випускниками з ФК</p>
+											</div>
+										</div>
+									</div>
+									<div class="facts__slide swiper-slide">
+										<div data-fls-watcher="" class="facts__item">
+											<div class="facts__inner">
+												<span data-fls-digcounter="" class="facts__number">4</span>
+												<span class="facts__description">роки</span>
+											</div>
+											<div class="facts__text">
+												<p>Працюємо в Києві</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="facts__dotts dotts"></div>
+							</div>
+						</div>
+						<!-- Цитата -->
+						<div class="facts__footer footer-facts">
+							<div class="footer-facts__text">
+								<p>
+									Для успіху та перемоги потрібно
+									<span>3% таланту</span>
+									та
+									<span>97% рішучості працювати</span>
+									на результат!
+								</p>
+							</div>
+							<div class="footer-facts__name">Андрій Сидорчук</div>
+							<div class="footer-facts__position">Директор ФК “Темп-Святошин”</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="advantages">
+					<div class="advantages__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div class="titlehead__title titlehead__title--lable">
+								<p>ПЕРЕВАГИ</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead">
+							<h2 class="titlehead__title">Батьки отримують:</h2>
+						</div>
+						<div class="advantages__box">
+							<div class="advantages__controls">
+								<div class="advantages__arrow advantages__arrow-left --icon-arrow-up"></div>
+								<div class="advantages__arrow advantages__arrow-right --icon-arrow-up"></div>
+							</div>
+							<div class="advantages__inner">
+								<div data-fls-slider="" class="advantages__slider swiper">
+									<div class="advantages__wrapper swiper-wrapper">
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body">
+												<div class="advantages__icon">
+													<img src="./assets/img/advantages/plant.svg" alt="Icon">
+												</div>
+												<h3 class="advantages__title">Гармонія</h3>
+												<div class="advantages__text">
+													<p>
+														Ви отримуєте здорову, активну, емоційно стійку та
+                      соціально адаптовану дитину
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body">
+												<div class="advantages__icon">
+													<img src="./assets/img/advantages/smile.svg" alt="Icon">
+												</div>
+												<h3 class="advantages__title">Характер</h3>
+												<div class="advantages__text">
+													<p>
+														Футбол допомагає виховати характер, який стане основою для
+                      успіхів у житті
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body advantages__body--football">
+												<div class="advantages__icon advantages__icon--fotball">
+													<img src="./assets/img/advantages/fotball.svg" alt="Icon">
+												</div>
+											</div>
+										</div>
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body">
+												<div class="advantages__icon">
+													<img src="./assets/img/advantages/health-muscle.svg" alt="Icon">
+												</div>
+												<h3 class="advantages__title">Здоров’я</h3>
+												<div class="advantages__text">
+													<p>
+														Регулярні фізичні навантаження підтримують і зміцнюють
+                      здоров’я дитини
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body">
+												<div class="advantages__icon">
+													<img src="./assets/img/advantages/mountain.svg" alt="Icon">
+												</div>
+												<h3 class="advantages__title">Досягнення</h3>
+												<div class="advantages__text">
+													<p>
+														Участь у турнірах, перемоги — це моменти, які дарують
+                      батькам почуття радості за успіхи дитини
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body">
+												<div class="advantages__icon">
+													<img src="./assets/img/advantages/plant-seed.svg" alt="Icon">
+												</div>
+												<h3 class="advantages__title">Інвестиції</h3>
+												<div class="advantages__text">
+													<p>
+														Вклад у перспективний розвиток дитини, які стануть
+                      ключовою перевагою в майбутньому
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body advantages__body--group">
+												<div class="advantages__icon advantages__icon--group">
+													<img src="./assets/img/advantages/group.svg" alt="Icon">
+												</div>
+											</div>
+										</div>
+										<div class="advantages__slide swiper-slide">
+											<div class="advantages__body">
+												<div class="advantages__icon">
+													<img src="./assets/img/advantages/employees.svg" alt="Icon">
+												</div>
+												<h3 class="advantages__title">Зв’язок</h3>
+												<div class="advantages__text">
+													<p>
+														Створюйте сімейні традиції та спільні спогади, підтримуючи
+                      дитину на турнірах і тренуваннях
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="advantages__dotts dotts"></div>
+								</div>
+								<div class="advantages__image">
+									<picture>
+										<img alt="Image" src="./assets/img/advantages/image-01.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="kids">
+					<div class="kids__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div class="titlehead__title titlehead__title--lable">
+								<p>ПЕРЕВАГИ</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead titlehead--kids">
+							<h2 class="titlehead__title">Що отримає ваша дитина з ФК “Темп-Святошин”:</h2>
+						</div>
+						<div class="kids__box">
+							<div class="kids__controls">
+								<div class="kids__arrow kids__arrow-left --icon-arrow-up"></div>
+								<div class="kids__arrow kids__arrow-right --icon-arrow-up"></div>
+							</div>
+							<div class="kids__inner">
+								<div class="kids__image">
+									<picture>
+										<img alt="Image Kids Team" src="./assets/img/kids/kids.webp">
+									</picture>
+								</div>
+								<div data-fls-slider="" class="kids__slider swiper">
+									<div class="kids__wrapper swiper-wrapper">
+										<div class="kids__slide swiper-slide">
+											<div class="kids__body">
+												<h3 class="kids__title">Здорове тіло, сильний дух!</h3>
+												<div class="kids__text">
+													<p>
+														Футбол — це ідеальний баланс руху, витривалості та
+                      здорового способу життя;
+													</p>
+												</div>
+												<div class="kids__text">
+													<p>
+														Жодних проблем із поставою, зайвою вагою та слабким
+                      імунітетом;
+													</p>
+												</div>
+												<div class="kids__text">
+													<p>
+														Безцінне вміння поводити себе на полі, адже кожна гра - це
+                      виклик!
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="kids__slide swiper-slide">
+											<div class="kids__body">
+												<h3 class="kids__title">Мотивація і дух переможця</h3>
+												<div class="kids__text">
+													<p>Постійний прогрес у грі надихає досягати більшого;</p>
+												</div>
+												<div class="kids__text">
+													<p>
+														Змагання розвивають цілеспрямованість і прагнення бути
+                      кращим
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="kids__slide swiper-slide">
+											<div class="kids__body">
+												<h3 class="kids__title">Щира радість і море емоцій</h3>
+												<div class="kids__text">
+													<p>
+														Футбол — це більше ніж спорт, це захопливий процес, який
+                      приносить радість і заряд енергії;
+													</p>
+												</div>
+												<div class="kids__text">
+													<p>
+														Діти відволікаються від гаджетів, насолоджуючись реальним
+                      життям
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="kids__slide swiper-slide">
+											<div class="kids__body">
+												<h3 class="kids__title">Друзі на все життя!</h3>
+												<div class="kids__text">
+													<p>Команда — це друзі, з якими смієшся, мрієш і ростеш разом;</p>
+												</div>
+												<div class="kids__text">
+													<p>
+														Навчаємо підтримувати інших, працювати в колективі та
+                      сприяємо розвитку лідерських якостей через командні ролі
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="kids__slide swiper-slide">
+											<div class="kids__body">
+												<h3 class="kids__title">Перемога в кожному кроці!</h3>
+												<div class="kids__text">
+													<p>
+														Кожен матч — це перемога, навіть якщо рахунок не на
+                      користь;
+													</p>
+												</div>
+												<div class="kids__text">
+													<p>
+														Ваша дитина навчиться впевнено стояти на полі життя, не
+                      боятися поразок і завжди шукати нові шляхи до перемоги
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="kids__slide swiper-slide">
+											<div class="kids__body">
+												<h3 class="kids__title">Відповідальність</h3>
+												<div class="kids__text">
+													<p>
+														Регулярні тренування вчать планувати час і дотримуватися
+                      розкладу;;
+													</p>
+												</div>
+												<div class="kids__text">
+													<p>
+														Дотримання правил гри виховує повагу до інших та здатність
+                      працювати за умовами
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="kids__dotts dotts"></div>
+								</div>
+							</div>
+						</div>
+						<button data-fls-button="" data-fls-marquee="" data-fls-marquee-pause="" class="button button__trial button__trial--kids">
+							<div class="">
+								Записатися
+								<br>
+								на пробне заняття
+							</div>
+							<div class="">Записатися на пробне заняття</div>
+						</button>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="training">
+					<div class="training__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div class="titlehead__title titlehead__title--lable">
+								<p>Структура тренувань</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead">
+							<h2 class="titlehead__title">
+								<span>
+									Стратегія успіху:
+									<br>
+								</span>
+								кожне тренування веде до
+          перемоги!
+							</h2>
+						</div>
+						<div class="training__approach">
+							<p>
+								Заняття коригуються відповідно до фізичної, моральної та психологічної
+          підготовки дитини
+							</p>
+						</div>
+						<div data-fls-slider="" class="training__slider swiper">
+							<div class="training__wrapper swiper-wrapper">
+								<div class="training__slide swiper-slide">
+									<div class="training__body">
+										<div class="training__label --icon-clock">
+											<p>10 хвилин</p>
+										</div>
+										<h3 class="training__title">Підготовча частина</h3>
+										<div class="training__text">
+											<p>Розминка: загальні вправи для активації всіх груп м'язів;</p>
+										</div>
+										<div class="training__text">
+											<p>
+												Розтяжка: динамічна та статична для підготовки м'язів і
+                  суглобів до навантаження;
+											</p>
+										</div>
+										<div class="training__text">
+											<p>
+												Координаційна робота для розвитку швидкості, спритності та
+                  контролю
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="training__slide swiper-slide">
+									<div class="training__body">
+										<div class="training__label --icon-clock">
+											<p>20 хвилин</p>
+										</div>
+										<h3 class="training__title">Технічна частина</h3>
+										<div class="training__text">
+											<p>
+												Робота з м'ячем: ведення з акцентом на зміну напрямку й
+                  швидкості, передачі (короткі, середні, довгі) у парах і
+                  групах, удари по воротах із різних позицій і ситуацій
+                  (статичних, рухомих);
+											</p>
+										</div>
+										<div class="training__text">
+											<p>Комбінаційна гра для відпрацювання взаємодії гравців</p>
+										</div>
+									</div>
+								</div>
+								<div class="training__slide swiper-slide">
+									<div class="training__body">
+										<div class="training__label --icon-clock">
+											<p>15 хвилин</p>
+										</div>
+										<h3 class="training__title">Фізична підготовка</h3>
+										<div class="training__text">
+											<p>Вправи на витривалість, силу та вибухову швидкість;</p>
+										</div>
+										<div class="training__text">
+											<p>Спеціалізовані бігові завдання з м’ячем і без нього;</p>
+										</div>
+										<div class="training__text">
+											<p>Робота над рівновагою та стрибковою здатністю</p>
+										</div>
+									</div>
+								</div>
+								<div class="training__slide swiper-slide">
+									<div class="training__body">
+										<div class="training__label --icon-clock">
+											<p>10 хвилин</p>
+										</div>
+										<h3 class="training__title">Ігрова частина</h3>
+										<div class="training__text">
+											<p>
+												Двостороння гра: спаринг між командами з конкретними
+                  тактичними завданнями (наприклад, контроль м'яча, перехід із
+                  оборони в атаку);
+											</p>
+										</div>
+										<div class="training__text">
+											<p>
+												Міні-турніри або тематичні ігри: для закріплення технічних і
+                  тактичних навичок у реальних умовах.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="training__slide swiper-slide">
+									<div class="training__body">
+										<div class="training__label --icon-clock">
+											<p>10 хвилин</p>
+										</div>
+										<h3 class="training__title">Заключна частина</h3>
+										<div class="training__text">
+											<p>Заминка: легкі вправи на зниження пульсу (легкий біг, ходьба);</p>
+										</div>
+										<div class="training__text">
+											<p>Розтяжка: для відновлення м'язів і запобігання травмам</p>
+										</div>
+									</div>
+								</div>
+								<div class="training__slide swiper-slide">
+									<div class="training__body">
+										<div class="training__label --icon-clock">
+											<p>5 хвилин</p>
+										</div>
+										<h3 class="training__title">Рефлексія</h3>
+										<div class="training__text">
+											<p>Підбиття підсумків тренування, похвала за успіхи;</p>
+										</div>
+										<div class="training__text">
+											<p>Розбір помилок та рекомендації;</p>
+										</div>
+										<div class="training__text">
+											<p>Постановка цілей на наступне заняття.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="training__dotts dotts"></div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<div data-fls-popup="popup" aria-hidden="true" class="popup">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<button data-fls-popup-close="" type="button" class="popup__close --icon-plus"></button>
+						<div data-fls-popup-content="" class="popup__text"><!-- Контент --></div>
+					</div>
+				</div>
+			</div>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>
