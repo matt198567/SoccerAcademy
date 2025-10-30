@@ -1,12 +1,16 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="uk">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
-		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1760709833210"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1760709833210">
+		<meta name="keywords" content="футбольний клуб, Темп-Святошин, футбол для дітей, набір дітей, футбольна школа Київ, тренування з футболу, дитячий спорт, футбольна академія">
+		<meta name="description" content="Футбольний клуб «Темп-Святошин» проводить набір дітей 2015 року народження будь-якого рівня підготовки. Професійні тренери, дружня атмосфера та перші кроки до великих перемог!">
+		<title>Футбольний клуб «Темп-Святошин»</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1761829612914"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1761829612914">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1761829612914">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -99,7 +103,7 @@
 </if>
 -->
 									<li class="menu__item">
-										<a href="#" class="menu__link" data-fls-scrollto="undefined" data-fls-scrollto-header="">Відгуки</a>
+										<a href="#" class="menu__link" data-fls-scrollto=".reviews" data-fls-scrollto-header="">Відгуки</a>
 									</li>
 									<!--
 <else>
@@ -118,7 +122,7 @@
 </if>
 -->
 									<li class="menu__item">
-										<a href="#" class="menu__link" data-fls-scrollto="undefined" data-fls-scrollto-header="">Ціни</a>
+										<a href="#" class="menu__link" data-fls-scrollto=".price" data-fls-scrollto-header="">Ціни</a>
 									</li>
 									<!--
 <else>
@@ -169,7 +173,7 @@
 							</h1>
 						</div>
 						<div data-fls-titlehead="" class="titlehead titlehead__hero--title">
-							<h2 class="titlehead__title title-titlehead--hero">
+							<h2 class="titlehead__title titlehead__title--anime title-titlehead--hero">
 								будь-якого рівня фізичної підготовки для навчання
 								<span>професійній грі у футбол</span>
 							</h2>
@@ -187,13 +191,13 @@
 								</div>
 								<div class="hero__inner">
 									<div class="hero__box">
-										<button data-fls-button="" class="button">Записатися</button>
+										<button data-fls-popup-link="popup-form" type="button" data-fls-button="" class="button">Записатися</button>
 										<a href="" class="hero__link">Дізнатись більше</a>
 									</div>
 								</div>
 							</div>
 							<div data-fls-dynamic=".hero__inner, 768" class="hero__play">
-								<a href="#" data-fls-popup-link="popup" data-fls-popup-youtube="TzqNA7FoEjY">
+								<a href="#" data-fls-popup-link="popup" data-fls-popup-youtube="ACE6gF9p8qs?si=lFAXxh_hVIHbYgC9">
 									<picture>
 										<img alt="Video Youtube" src="./assets/img/hero/button-play.webp">
 									</picture>
@@ -201,6 +205,9 @@
 							</div>
 						</div>
 					</div>
+					<button data-fls-scrollto=".hero" type="button" class="hero__arrow">
+						<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+					</button>
 				</section>
 				<section data-fls-watcher="navigator" class="about">
 					<div class="about__container">
@@ -273,12 +280,12 @@
 						</div>
 						<div class="about__content">
 							<div data-fls-titlehead="" class="titlehead">
-								<div class="titlehead__title titlehead__title--lable">
+								<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
 									<p>ПРО НАС</p>
 								</div>
 							</div>
 							<div data-fls-titlehead="" class="titlehead">
-								<h2 class="titlehead__title">
+								<h2 data-fls-watcher="" class="titlehead__title">
 									ФК “Темп-Святошин”:
 									<span>старт великої футбольної мрії!</span>
 								</h2>
@@ -316,7 +323,7 @@
 				<section data-fls-watcher="navigator" class="facts">
 					<div class="facts__container">
 						<div data-fls-titlehead="" class="titlehead titlehead--facts">
-							<div class="titlehead__title titlehead__title--lable">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
 								<p>ФАКТИ В ЦИФРАХ</p>
 							</div>
 						</div>
@@ -395,12 +402,12 @@
 				<section data-fls-watcher="navigator" class="advantages">
 					<div class="advantages__container">
 						<div data-fls-titlehead="" class="titlehead">
-							<div class="titlehead__title titlehead__title--lable">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
 								<p>ПЕРЕВАГИ</p>
 							</div>
 						</div>
 						<div data-fls-titlehead="" class="titlehead">
-							<h2 class="titlehead__title">Батьки отримують:</h2>
+							<h2 data-fls-watcher="" class="titlehead__title">Батьки отримують:</h2>
 						</div>
 						<div class="advantages__box">
 							<div class="advantages__controls">
@@ -523,12 +530,12 @@
 				<section data-fls-watcher="navigator" class="kids">
 					<div class="kids__container">
 						<div data-fls-titlehead="" class="titlehead">
-							<div class="titlehead__title titlehead__title--lable">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
 								<p>ПЕРЕВАГИ</p>
 							</div>
 						</div>
 						<div data-fls-titlehead="" class="titlehead titlehead--kids">
-							<h2 class="titlehead__title">Що отримає ваша дитина з ФК “Темп-Святошин”:</h2>
+							<h2 data-fls-watcher="" class="titlehead__title">Що отримає ваша дитина з ФК “Темп-Святошин”:</h2>
 						</div>
 						<div class="kids__box">
 							<div class="kids__controls">
@@ -650,7 +657,7 @@
 								</div>
 							</div>
 						</div>
-						<button data-fls-button="" data-fls-marquee="" data-fls-marquee-pause="" class="button button__trial button__trial--kids">
+						<button data-fls-button="" data-fls-marquee="" data-fls-marquee-pause="" data-fls-popup-link="popup-form" type="button" class="button button__trial button__trial--kids">
 							<div class="">
 								Записатися
 								<br>
@@ -660,15 +667,15 @@
 						</button>
 					</div>
 				</section>
-				<section data-fls-watcher="navigator" class="training">
+				<section data-fls-watcher="navigator" id="trainings" class="training">
 					<div class="training__container">
 						<div data-fls-titlehead="" class="titlehead">
-							<div class="titlehead__title titlehead__title--lable">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
 								<p>Структура тренувань</p>
 							</div>
 						</div>
 						<div data-fls-titlehead="" class="titlehead">
-							<h2 class="titlehead__title">
+							<h2 data-fls-watcher="" class="titlehead__title">
 								<span>
 									Стратегія успіху:
 									<br>
@@ -677,7 +684,7 @@
           перемоги!
 							</h2>
 						</div>
-						<div class="training__approach">
+						<div data-fls-watcher="" class="training__approach">
 							<p>
 								Заняття коригуються відповідно до фізичної, моральної та психологічної
           підготовки дитини
@@ -801,17 +808,966 @@
 						</div>
 					</div>
 				</section>
+				<section data-fls-watcher="navigator" class="coaches">
+					<div class="coaches__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
+								<p>ТРЕНЕРИ</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead">
+							<h2 data-fls-watcher="" class="titlehead__title">
+								Тренери, які перетворюють навчання на результат, а перемоги на стиль
+          життя
+							</h2>
+						</div>
+						<div class="coaches__box">
+							<div class="coaches__controls">
+								<div class="coaches__arrow coaches__arrow-left">
+									<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+								</div>
+								<div class="coaches__arrow coaches__arrow-right">
+									<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+								</div>
+							</div>
+							<div data-fls-slider="" class="coaches__slider swiper">
+								<div class="coaches__wrapper swiper-wrapper">
+									<div class="coaches__slide swiper-slide">
+										<div class="coaches__body">
+											<div class="coaches__image">
+												<picture>
+													<img alt="Image Coach" src="./assets/img/coaches/image-01.webp">
+												</picture>
+											</div>
+											<div class="coaches__content">
+												<h4 class="coaches__title">Андрій Сидорчук</h4>
+												<div class="coaches__inner">
+													<div class="coaches__experience">
+														<p>Тренер з 15 річним стажем.</p>
+													</div>
+													<div class="coaches__text">
+														<p>Освіта: педагогічна, курси, (і тд.)</p>
+													</div>
+													<div class="coaches__text">
+														<p>тренер груп 12/13 р.н.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="coaches__slide swiper-slide">
+										<div class="coaches__body">
+											<div class="coaches__image">
+												<picture>
+													<img alt="Image Coach" src="./assets/img/coaches/image-02.webp">
+												</picture>
+											</div>
+											<div class="coaches__content">
+												<h4 class="coaches__title">Зайнчковський Богдан</h4>
+												<div class="coaches__inner">
+													<div class="coaches__experience">
+														<p>Тренер з 15 річним стажем.</p>
+													</div>
+													<div class="coaches__text">
+														<p>Освіта: педагогічна, курси, (і тд.)</p>
+													</div>
+													<div class="coaches__text">
+														<p>тренер груп 12/13 р.н.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="coaches__slide swiper-slide">
+										<div class="coaches__body">
+											<div class="coaches__image">
+												<picture>
+													<img alt="Image Coach" src="./assets/img/coaches/image-03.webp">
+												</picture>
+											</div>
+											<div class="coaches__content">
+												<h4 class="coaches__title">Дмитро Вегера</h4>
+												<div class="coaches__inner">
+													<div class="coaches__experience">
+														<p>Тренер з 15 річним стажем.</p>
+													</div>
+													<div class="coaches__text">
+														<p>Освіта: педагогічна, курси, (і тд.)</p>
+													</div>
+													<div class="coaches__text">
+														<p>тренер груп 12/13 р.н.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="coaches__slide swiper-slide">
+										<div class="coaches__body">
+											<div class="coaches__image">
+												<picture>
+													<img alt="Image Coach" src="./assets/img/coaches/image-04.webp">
+												</picture>
+											</div>
+											<div class="coaches__content">
+												<h4 class="coaches__title">Сергій Сидорчук</h4>
+												<div class="coaches__inner">
+													<div class="coaches__experience">
+														<p>Тренер з 15 річним стажем.</p>
+													</div>
+													<div class="coaches__text">
+														<p>Освіта: педагогічна, курси, (і тд.)</p>
+													</div>
+													<div class="coaches__text">
+														<p>тренер груп 12/13 р.н.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="coaches__dotts dotts"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="gallery">
+					<div class="gallery__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
+								<p>ГАЛЕРЕЯ</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead">
+							<h2 data-fls-watcher="" class="titlehead__title">
+								Наші тренування:
+								<span>погляд зсередини</span>
+							</h2>
+						</div>
+						<div class="gallery__inner">
+							<div class="gallery__left">
+								<div class="gallery__small gallery__small--left-top">
+									<picture>
+										<img alt="Image Team" src="./assets/img/gallery/image-small-01.webp">
+									</picture>
+								</div>
+								<div class="gallery__small gallery__small--left-center">
+									<picture>
+										<img alt="Image Team" src="./assets/img/gallery/image-small-02.webp">
+									</picture>
+								</div>
+								<div class="gallery__small gallery__small--left-bottom">
+									<picture>
+										<img alt="Image Team" src="./assets/img/gallery/image-small-03.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="gallery__box">
+								<div class="gallery__controls">
+									<div class="gallery__arrow gallery__arrow-left">
+										<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+									</div>
+									<div class="gallery__arrow gallery__arrow-right">
+										<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+									</div>
+								</div>
+								<div data-fls-slider="" class="gallery__slider swiper">
+									<div class="gallery__wrapper swiper-wrapper">
+										<div class="gallery__slide swiper-slide">
+											<div class="gallery__body">
+												<picture>
+													<img alt="Image Team" src="./assets/img/gallery/image-01.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="gallery__slide swiper-slide">
+											<div class="gallery__body">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/gallery/image-02-600.webp" type="image/webp">
+													<img alt="Image Team" src="./assets/img/gallery/image-02.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="gallery__slide swiper-slide">
+											<div class="gallery__body">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/gallery/image-03-600.webp" type="image/webp">
+													<img alt="Image Team" src="./assets/img/gallery/image-03.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="gallery__slide swiper-slide">
+											<div class="gallery__body">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/gallery/image-04-600.webp" type="image/webp">
+													<img alt="Image Team" src="./assets/img/gallery/image-04.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="gallery__slide swiper-slide">
+											<div class="gallery__body">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/gallery/image-05-600.webp" type="image/webp">
+													<img alt="Image Team" src="./assets/img/gallery/image-05.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="gallery__slide swiper-slide">
+											<div class="gallery__body">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/gallery/image-06-600.webp" type="image/webp">
+													<img alt="Image Team" src="./assets/img/gallery/image-06.webp">
+												</picture>
+											</div>
+										</div>
+									</div>
+									<div class="gallery__dotts dotts dotts--gallery"></div>
+								</div>
+							</div>
+							<div class="gallery__right">
+								<div class="gallery__small gallery__small--right-top">
+									<picture>
+										<img alt="Image Team" src="./assets/img/gallery/image-small-04.webp">
+									</picture>
+								</div>
+								<div class="gallery__small gallery__small--right-center">
+									<picture>
+										<img alt="Image Team" src="./assets/img/gallery/image-small-05.webp">
+									</picture>
+								</div>
+								<div class="gallery__small gallery__small--right-bottom">
+									<picture>
+										<img alt="Image Team" src="./assets/img/gallery/image-small-06.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="gallery__footer footer-gallery">
+							<div class="footer-gallery__box">
+								<div class="footer-gallery__controls">
+									<div class="footer-gallery__arrow footer-gallery__arrow-left">
+										<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+									</div>
+									<div class="footer-gallery__arrow footer-gallery__arrow-right">
+										<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+									</div>
+								</div>
+								<div data-fls-slider="" class="footer-gallery__slider swiper">
+									<div class="footer-gallery__wrapper swiper-wrapper">
+										<div class="footer-gallery__slide swiper-slide">
+											<div class="footer-gallery__body">
+												<div class="footer-gallery__play">
+													<a href="#" data-fls-popup-link="popup" data-fls-popup-youtube="ACE6gF9p8qs?si=lFAXxh_hVIHbYgC9">
+														<picture>
+															<source srcset="./assets/img/gallery/image-footer-mob-01.webp" media="(max-width: 767px)">
+															<picture>
+																<img alt="Video Youtube" src="./assets/img/gallery/image-footer-01.webp">
+															</picture>
+														</picture>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="footer-gallery__slide swiper-slide">
+											<div class="footer-gallery__body">
+												<div class="footer-gallery__play">
+													<a href="#" data-fls-popup-link="popup" data-fls-popup-youtube="ACE6gF9p8qs?si=lFAXxh_hVIHbYgC9">
+														<picture>
+															<source srcset="./assets/img/gallery/image-footer-mob-01.webp" media="(max-width: 767px)">
+															<picture>
+																<img alt="Video Youtube" src="./assets/img/gallery/image-footer-01.webp">
+															</picture>
+														</picture>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="footer-gallery__slide swiper-slide">
+											<div class="footer-gallery__body">
+												<div class="footer-gallery__play">
+													<a href="#" data-fls-popup-link="popup" data-fls-popup-youtube="ACE6gF9p8qs?si=lFAXxh_hVIHbYgC9">
+														<picture>
+															<source srcset="./assets/img/gallery/image-footer-mob-01.webp" media="(max-width: 767px)">
+															<picture>
+																<img alt="Video Youtube" src="./assets/img/gallery/image-footer-01.webp">
+															</picture>
+														</picture>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="footer-gallery__slide swiper-slide">
+											<div class="footer-gallery__body">
+												<div class="footer-gallery__play">
+													<a href="#" data-fls-popup-link="popup" data-fls-popup-youtube="ACE6gF9p8qs?si=lFAXxh_hVIHbYgC9">
+														<picture>
+															<source srcset="./assets/img/gallery/image-footer-mob-01.webp" media="(max-width: 767px)">
+															<picture>
+																<img alt="Video Youtube" src="./assets/img/gallery/image-footer-01.webp">
+															</picture>
+														</picture>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="footer-gallery__dotts dotts dotts--footer-gallery"></div>
+								</div>
+							</div>
+						</div>
+						<div class="footer-gallery__button">
+							<button type="button" data-fls-popup-link="popup-form" class="button button__trial button__trial--kids button__trial--kids-gallery">
+								<span class="button__line1">Записатися</span>
+								<span class="button__line2">на пробне заняття</span>
+							</button>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="reviews">
+					<div class="reviews__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
+								<p>Відгуки</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead">
+							<h2 data-fls-watcher="" class="titlehead__title">Результати, які вже отримали діти іЗ ФК “Темп-Святошин”</h2>
+						</div>
+						<div class="reviews__box">
+							<div class="reviews__controls">
+								<div class="reviews__arrow reviews__arrow-left">
+									<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+								</div>
+								<div class="reviews__arrow reviews__arrow-right">
+									<img src="./assets/img/coaches/icon.svg" alt="Icon Arrow">
+								</div>
+							</div>
+							<div data-fls-slider="" class="reviews__slider swiper">
+								<div class="reviews__wrapper swiper-wrapper">
+									<div class="reviews__slide swiper-slide">
+										<div class="reviews__body">
+											<div class="reviews__content">
+												<div class="reviews__feedback">
+													<p>
+														“ ... Тренери не лише добре знаються на футболі, але й
+                      вміють знаходити підхід до дітей...“
+													</p>
+												</div>
+												<div class="reviews__text">
+													<p>
+														Діти мають можливість брати участь у різних турнірах, як у
+                      межах Києва, так і за його межами. Це стимулює їхній
+                      інтерес до занять і допомагає набиратися змагального
+                      досвіду. Тренери не лише добре знаються на футболі, але й
+                      вміють знаходити підхід до дітей, мотивуючи їх на
+                      тренування
+													</p>
+												</div>
+											</div>
+											<div class="reviews__inner">
+												<div class="reviews__image">
+													<picture>
+														<img alt="Image Person's Review" src="./assets/img/reviews/image-01.webp">
+													</picture>
+												</div>
+												<div class="reviews__wrap">
+													<div class="reviews__name">
+														<p>Анна Гуйван</p>
+													</div>
+													<div class="reviews__info">
+														<p>Мама учня 2015 р.н. Син займається футболом 5 років</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide">
+										<div class="reviews__body">
+											<div class="reviews__content">
+												<div class="reviews__feedback">
+													<p>
+														“ ... Син став більш впевненим у собі, дисциплінованим, і
+                      найголовніше йому подобається ходити на тренування!“
+													</p>
+												</div>
+												<div class="reviews__text">
+													<p>
+														Мій син ходить на тренування в Темп-Святошин уже більше
+                      року, і я дуже задоволений. Тренери знаходять
+                      індивідуальний підхід до кожної дитини, що дуже важливо
+                      для розвитку в спорті. Син став більш впевненим у собі,
+                      дисциплінованим, і найголовніше йому подобається ходити на
+                      тренування!
+													</p>
+												</div>
+											</div>
+											<div class="reviews__inner">
+												<div class="reviews__image">
+													<picture>
+														<img alt="Image Person's Review" src="./assets/img/reviews/image-02.webp">
+													</picture>
+												</div>
+												<div class="reviews__wrap">
+													<div class="reviews__name">
+														<p>Степан Бондар</p>
+													</div>
+													<div class="reviews__info">
+														<p>Тато учня 2015 р.н. Син займається футболом 1 рік</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide">
+										<div class="reviews__body">
+											<div class="reviews__content">
+												<div class="reviews__feedback">
+													<p>
+														“ ... Тренери не лише добре знаються на футболі, але й
+                      вміють знаходити підхід до дітей... “
+													</p>
+												</div>
+												<div class="reviews__text">
+													<p>
+														Мій син займається у футбольній школі "Темп-Святошин" вже
+                      другий рік, і ми дуже задоволені результатами. Тренери
+                      професійні, уважні до кожної дитини і завжди знаходять
+                      підхід навіть до найменших. Я бачу, як син вдосконалює
+                      свої футбольні навички.
+													</p>
+												</div>
+											</div>
+											<div class="reviews__inner">
+												<div class="reviews__image">
+													<picture>
+														<img alt="Image Person's Review" src="./assets/img/reviews/image-03.webp">
+													</picture>
+												</div>
+												<div class="reviews__wrap">
+													<div class="reviews__name">
+														<p>ТЕТЯНА КУШНІР</p>
+													</div>
+													<div class="reviews__info">
+														<p>Мама учня 2015 р.н. Син займається футболом 2 роки</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__dotts dotts"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" id="price" class="price">
+					<div class="price__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
+								<p>Вартість</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead">
+							<h2 data-fls-watcher="" class="titlehead__title">
+								Вартість занять: краща
+								<span>інвестиція в розвиток</span>
+								вашої дитини
+							</h2>
+						</div>
+						<div class="price__inner">
+							<div class="price__body">
+								<div class="price__content">
+									<div class="price__text">
+										<p>
+											Успішне майбутнє вашої дитини –
+											<span>лише 148 грн за одне тренування!</span>
+											Заняття у ФК "Темп-Святошин" відкривають нові перспективи та
+                роблять кожне тренування кроком до здоров’я, розвитку й успіху
+                підростаючого покоління.
+										</p>
+									</div>
+									<div class="price__text price__text--bottom">
+										<p>
+											Вигідна ціна при оплаті за місяць –
+											<span>1 700 грн.</span>
+										</p>
+									</div>
+								</div>
+								<div class="price__image">
+									<picture>
+										<img alt="Зображення гравця" src="./assets/img/price/image-01.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="price__body">
+								<div class="price__image">
+									<picture>
+										<img alt="Зображення гравця" src="./assets/img/price/image-02.webp">
+									</picture>
+								</div>
+								<div class="price__content">
+									<div class="price__text price__text--left">
+										<p>Зручний графік занять для групи 2015 року народження:</p>
+									</div>
+									<div class="price__lable">
+										<div class="price__box">
+											<div class="price__info --icon-calendar">
+												<p>Понеділок</p>
+											</div>
+											<div class="price__info --icon-clock-five">
+												<p>16:00 - 17:00</p>
+											</div>
+										</div>
+										<div class="price__box">
+											<div class="price__info --icon-calendar">
+												<p>Середа</p>
+											</div>
+											<div class="price__info --icon-clock-five">
+												<p>16:00 - 17:00</p>
+											</div>
+										</div>
+										<div class="price__box">
+											<div class="price__info --icon-calendar">
+												<p>П’ятниця</p>
+											</div>
+											<div class="price__info --icon-clock-five">
+												<p>16:00 - 17:00</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="contacts">
+					<div class="contacts__container">
+						<div class="contacts__wrapping">
+							<div class="contacts__inner">
+								<div class="contacts__body">
+									<div class="contacts__lable">
+										<p>Ми поруч</p>
+									</div>
+									<div class="contacts__content">
+										<div class="contacts__dres">
+											<p>Адреса</p>
+										</div>
+										<div class="contacts__address">
+											<p>
+												вулиця Авіаконструкторська, 10-А, Київ Поряд станція метро
+                  "Святошин"
+											</p>
+										</div>
+									</div>
+								</div>
+								<a href="" target="_blank" class="contacts__link">
+									<picture>
+										<source srcset="./assets/img/contacts/map-mob.webp" media="(max-width: 991.98px)">
+										<picture>
+											<img alt="Зображення карти розташування" src="./assets/img/contacts/map.webp">
+										</picture>
+									</picture>
+								</a>
+							</div>
+							<div class="contacts__wrap wrap-contacts">
+								<div data-fls-titlehead="" class="titlehead">
+									<h3 data-fls-watcher="" class="titlehead__title titlehead__title--wrap">Запрошуємо на безкоштовне перше тренування у ФК “Темп-Святошин”</h3>
+								</div>
+								<div class="wrap-contacts__inner">
+									<div class="wrap-contacts__body">
+										<div class="wrap-contacts__icon">
+											<img src="./assets/img/contacts/icon-01.svg" alt="Іконка">
+										</div>
+										<div class="wrap-contacts__text">
+											<p>Знайомство з тренером групи</p>
+										</div>
+									</div>
+									<div class="wrap-contacts__body">
+										<div class="wrap-contacts__icon">
+											<img src="./assets/img/contacts/icon-02.svg" alt="Іконка">
+										</div>
+										<div class="wrap-contacts__text">
+											<p>Заняття на повноцінному тренуванні</p>
+										</div>
+									</div>
+									<div class="wrap-contacts__body">
+										<div class="wrap-contacts__icon">
+											<img src="./assets/img/contacts/icon-03.svg" alt="Іконка">
+										</div>
+										<div class="wrap-contacts__text">
+											<p>Знайомство з командою</p>
+										</div>
+									</div>
+									<div class="wrap-contacts__body">
+										<div class="wrap-contacts__icon">
+											<img src="./assets/img/contacts/icon-04.svg" alt="Іконка">
+										</div>
+										<div class="wrap-contacts__text wrap-contacts__text--box">
+											<p>
+												Можливість поспілкуватись з іншими батьками та почути
+                  найактуальніші відгуки про школу
+											</p>
+										</div>
+									</div>
+									<div class="wrap-contacts__body">
+										<div class="wrap-contacts__icon">
+											<img src="./assets/img/contacts/icon-05.svg" alt="Іконка">
+										</div>
+										<div class="wrap-contacts__text">
+											<p>Почуйте думку вашої дитини про тренування</p>
+										</div>
+									</div>
+								</div>
+								<form data-fls-dynamic=".contacts__container, 1149.98" data-fls-form="ajax" method="POST" class="contacts__form form">
+									<div data-fls-titlehead="" class="titlehead titlehead--contacts">
+										<h4 data-fls-watcher="" class="titlehead__title titlehead__title--heading">
+											Запишіться на
+											<span>безкоштовне заняття,</span>
+											та подаруйте
+                незабутній досвід своїй дитині!
+										</h4>
+									</div>
+									<div class="form__item">
+										<input data-fls-input="" required autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Як можно до Вас звертатися" placeholder="Ім’я" class="form__input">
+									</div>
+									<div class="form__item">
+										<input data-fls-input="" required autocomplete="off" type="tel" name="phone" data-fls-form-errtext="Вкажіть свій номер телефону" placeholder="Номер телефону" class="form__input" pattern="^\+?[0-9\s\-\(\)]{7,20}$">
+									</div>
+									<div data-fls-radio="" class="options">
+										<label class="options__item">
+											<input class="options__input" checked type="checkbox" value="1" name="option">
+											<span class="options__text">Погоджуюсь на обробку персональних даних</span>
+										</label>
+									</div>
+									<div class="form__item">
+										<div class="contacts__button">
+											<button type="submit" class="button button__trial button__trial--kids button__trial--kids-gallery button__trial--kids-gallery-contacts form__button">
+												<span class="button__line1">Записатися</span>
+												<span class="button__line2">на пробне заняття</span>
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="navigator" class="blog">
+					<div class="blog__container">
+						<div data-fls-titlehead="" class="titlehead">
+							<div data-fls-watcher="" class="titlehead__title titlehead__title--lable">
+								<p>Блог</p>
+							</div>
+						</div>
+						<div data-fls-titlehead="" class="titlehead titlehead--blog">
+							<h2 data-fls-watcher="" class="titlehead__title">
+								<span>База знань:</span>
+								приділяємо особливу увагу вивченні теорії,
+          стратегії та історії футболу
+							</h2>
+						</div>
+						<div data-fls-slider="" class="blog__slider swiper">
+							<div class="blog__wrapper swiper-wrapper">
+								<div class="blog__slide swiper-slide">
+									<article class="blog__body">
+										<div class="blog__header">
+											<div class="blog__date">
+												<span class="blog__date-icon --icon-calendar"></span>
+												18.01.2025
+											</div>
+											<div class="blog__name">
+												<span class="blog__name-icon --icon-user"></span>
+												Зайнчковський
+                  Богдан
+											</div>
+										</div>
+										<div class="blog__image">
+											<picture>
+												<img alt="Зображення з новиною" src="./assets/img/blog/image-01.webp">
+											</picture>
+										</div>
+										<div class="blog__footer">
+											<span class="blog__footer-icon --icon-clock-five"></span>
+											Час читання
+											<span>8 хв.</span>
+										</div>
+										<h4 class="blog__title">Заголовок статті</h4>
+										<div class="blog__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt consectetur
+                  elit ...
+											</p>
+										</div>
+										<a href="#" data-fls-button="" class="button button__blog">Читати</a>
+									</article>
+								</div>
+								<div class="blog__slide swiper-slide">
+									<article class="blog__body">
+										<div class="blog__header">
+											<div class="blog__date">
+												<span class="blog__date-icon --icon-calendar"></span>
+												8.02.2025
+											</div>
+											<div class="blog__name">
+												<span class="blog__name-icon --icon-user"></span>
+												Зайнчковський
+                  Богдан
+											</div>
+										</div>
+										<div class="blog__image">
+											<picture>
+												<img alt="Зображення з новиною" src="./assets/img/blog/image-02.webp">
+											</picture>
+										</div>
+										<div class="blog__footer">
+											<span class="blog__footer-icon --icon-clock-five"></span>
+											Час читання
+											<span>6 хв.</span>
+										</div>
+										<h4 class="blog__title">Заголовок статті</h4>
+										<div class="blog__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt consectetur
+                  elit ...
+											</p>
+										</div>
+										<a href="#" data-fls-button="" class="button button__blog">Читати</a>
+									</article>
+								</div>
+								<div class="blog__slide swiper-slide">
+									<article class="blog__body">
+										<div class="blog__header">
+											<div class="blog__date">
+												<span class="blog__date-icon --icon-calendar"></span>
+												25.03.2025
+											</div>
+											<div class="blog__name">
+												<span class="blog__name-icon --icon-user"></span>
+												Зайнчковський
+                  Богдан
+											</div>
+										</div>
+										<div class="blog__image">
+											<picture>
+												<img alt="Зображення з новиною" src="./assets/img/blog/image-03.webp">
+											</picture>
+										</div>
+										<div class="blog__footer">
+											<span class="blog__footer-icon --icon-clock-five"></span>
+											Час читання
+											<span>10 хв.</span>
+										</div>
+										<h4 class="blog__title">Заголовок статті</h4>
+										<div class="blog__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt consectetur
+                  elit ...
+											</p>
+										</div>
+										<a href="#" data-fls-button="" class="button button__blog">Читати</a>
+									</article>
+								</div>
+								<div class="blog__slide swiper-slide">
+									<article class="blog__body">
+										<div class="blog__header">
+											<div class="blog__date">
+												<span class="blog__date-icon --icon-calendar"></span>
+												25.03.2025
+											</div>
+											<div class="blog__name">
+												<span class="blog__name-icon --icon-user"></span>
+												Зайнчковський
+                  Богдан
+											</div>
+										</div>
+										<div class="blog__image">
+											<picture>
+												<img alt="Зображення з новиною" src="./assets/img/blog/image-04.webp">
+											</picture>
+										</div>
+										<div class="blog__footer">
+											<span class="blog__footer-icon --icon-clock-five"></span>
+											Час читання
+											<span>8 хв.</span>
+										</div>
+										<h4 class="blog__title">Заголовок статті</h4>
+										<div class="blog__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt consectetur
+                  elit ...
+											</p>
+										</div>
+										<a href="#" data-fls-button="" class="button button__blog">Читати</a>
+									</article>
+								</div>
+								<div class="blog__slide swiper-slide">
+									<article class="blog__body">
+										<div class="blog__header">
+											<div class="blog__date">
+												<span class="blog__date-icon --icon-calendar"></span>
+												25.03.2025
+											</div>
+											<div class="blog__name">
+												<span class="blog__name-icon --icon-user"></span>
+												Зайнчковський
+                  Богдан
+											</div>
+										</div>
+										<div class="blog__image">
+											<picture>
+												<img alt="Зображення з новиною" src="./assets/img/blog/image-05.webp">
+											</picture>
+										</div>
+										<div class="blog__footer">
+											<span class="blog__footer-icon --icon-clock-five"></span>
+											Час читання
+											<span>8 хв.</span>
+										</div>
+										<h4 class="blog__title">Заголовок статті</h4>
+										<div class="blog__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt consectetur
+                  elit ...
+											</p>
+										</div>
+										<a href="#" data-fls-button="" class="button button__blog">Читати</a>
+									</article>
+								</div>
+								<div class="blog__slide swiper-slide">
+									<article class="blog__body">
+										<div class="blog__header">
+											<div class="blog__date">
+												<span class="blog__date-icon --icon-calendar"></span>
+												25.03.2025
+											</div>
+											<div class="blog__name">
+												<span class="blog__name-icon --icon-user"></span>
+												Зайнчковський
+                  Богдан
+											</div>
+										</div>
+										<div class="blog__image">
+											<picture>
+												<img alt="Зображення з новиною" src="./assets/img/blog/image-06.webp">
+											</picture>
+										</div>
+										<div class="blog__footer">
+											<span class="blog__footer-icon --icon-clock-five"></span>
+											Час читання
+											<span>8 хв.</span>
+										</div>
+										<h4 class="blog__title">Заголовок статті</h4>
+										<div class="blog__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt consectetur
+                  elit ...
+											</p>
+										</div>
+										<a href="#" data-fls-button="" class="button button__blog">Читати</a>
+									</article>
+								</div>
+							</div>
+							<div class="blog__dotts dotts dotts--blog"></div>
+						</div>
+						<a href="blog.html" data-fls-button="" class="button button__all">Переглянути всі статті</a>
+					</div>
+				</section>
 			</main>
 			<div data-fls-popup="popup" aria-hidden="true" class="popup">
 				<div data-fls-popup-wrapper="" class="popup__wrapper">
 					<div data-fls-popup-body="" class="popup__body">
 						<button data-fls-popup-close="" type="button" class="popup__close --icon-plus"></button>
-						<div data-fls-popup-content="" class="popup__text"><!-- Контент --></div>
+						<div data-fls-popup-content="" class="popup__text"></div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="popup-form" aria-hidden="true" class="popup">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<button data-fls-popup-close="" type="button" class="popup__close popup__close-form --icon-plus"></button>
+						<div data-fls-popup-content="" class="popup__text">
+							<form data-fls-form="ajax" method="POST" class="contacts__form form">
+								<div data-fls-titlehead="" class="titlehead titlehead--contacts">
+									<h4 class="titlehead__title titlehead__title--heading">
+										Запишіться на
+										<span>безкоштовне заняття,</span>
+										та подаруйте
+              незабутній досвід своїй дитині!
+									</h4>
+								</div>
+								<div class="form__item">
+									<input data-fls-input="" required autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Як можно до Вас звертатися" placeholder="Ім’я" class="form__input">
+								</div>
+								<div class="form__item">
+									<input data-fls-input="" required autocomplete="off" type="tel" name="phone" data-fls-form-errtext="Вкажіть свій номер телефону" placeholder="Номер телефону" class="form__input" pattern="^\+?[0-9\s\-\(\)]{7,20}$">
+								</div>
+								<div data-fls-radio="" class="options">
+									<label class="options__item">
+										<input class="options__input" checked type="checkbox" value="1" name="option">
+										<span class="options__text">Погоджуюсь на обробку персональних даних</span>
+									</label>
+								</div>
+								<div class="form__item">
+									<div class="contacts__button">
+										<button type="submit" class="button button__trial button__trial--kids button__trial--kids-gallery button__trial--kids-gallery-contacts form__button form__button-popap">
+											<span class="button__line1">Записатися</span>
+											<span class="button__line2">на пробне заняття</span>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 			<footer data-fls-footer="" class="footer">
-				<div class="footer__container"></div>
+				<div class="footer__container">
+					<div class="footer__inner">
+						<div class="footer__body">
+							<div class="footer__content">
+								<img class="footer__logo" src="./assets/img/logo-footer.svg" alt="Logo">
+								<div class="footer__name">
+									<div class="footer__box">
+										<div class="footer__text">
+											<p>
+												Футбольний клуб
+												<span>м. Київ</span>
+											</p>
+										</div>
+										<div class="footer__title">
+											<p>“Темп-Святошин”</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="footer__social social-footer">
+								<li class="social-footer__item">
+									<a href="" class="social-footer__link --icon-instagram"></a>
+								</li>
+								<li class="social-footer__item">
+									<a href="" class="social-footer__link --icon-facebook"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__bottom bottom-footer">
+							<div class="bottom-footer__text">
+								<p>Copyright 2025</p>
+							</div>
+							<a href="" class="bottom-footer__link">Політика конфіденційності</a>
+						</div>
+					</div>
+				</div>
 			</footer>
 		</div>
 	</body>
